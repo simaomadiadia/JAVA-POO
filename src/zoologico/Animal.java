@@ -10,7 +10,7 @@ package zoologico;
  */
 public class Animal {
 
-    public String nome;
-    public String especie;
-    public int idade;
+    private String nome;
+    private String especie;
+    private int idade;
 }
