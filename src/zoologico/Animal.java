@@ -45,4 +45,16 @@ public class Animal {
 		this.especie=especie;
 		this.idade=idade;
 	}
+        
+        // Sobrecarga 
+	// sobrecarregando o metodo construtor
+	// sobrecarga de uma classe difenciam se pela sua assibatura , assinatura(nome do metodo, e tipos de parametros)
+	public  Animal(String nome, String especie) {
+		this.nome=nome;
+		this.especie=especie;
+	}
+	public  Animal(String nome,int  idade) {
+		this.nome=nome;
+		this.idade=idade;
+	}
 }
