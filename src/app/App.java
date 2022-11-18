@@ -19,6 +19,13 @@ public class App {
 		 * Construtor criado dentro da classe 
 		acessorias criados  devido ao encapsulamento*/
 		Animal animal= new Animal("Gato","pelido",2);
+                
+                /*imprimindo as informacoes do objecto 
+		*atraves dos metodos acessorios set */
+		System.out.println(animal.getNome());
+		System.out.println(animal.getEspecie());
+		System.out.println(animal.getIdade());
+		System.out.println();
     }
     
 }
