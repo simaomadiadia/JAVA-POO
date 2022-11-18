@@ -14,10 +14,7 @@ public class App {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-       Animal animal= new Animal();
-       animal.setNome("gato");
-        System.out.println(animal.getNome());
+       
        
     }
     

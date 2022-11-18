@@ -38,4 +38,11 @@ public class Animal {
 		this.idade=idade;
 	}
 	
+        // Criando Construtor
+	
+	public  Animal(String nome,String especie, int idade) {
+		this.nome=nome;
+		this.especie=especie;
+		this.idade=idade;
+	}
 }
