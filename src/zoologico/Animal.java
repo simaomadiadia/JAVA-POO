@@ -57,4 +57,15 @@ public class Animal {
 		this.nome=nome;
 		this.idade=idade;
 	}
+        
+        
+	public String emitirBarulho() {
+		 return " Emitindo barulho";
+	}
+	
+	
+	public boolean ehAdulto() {
+		return  this.idade>1;
+	}
+
 }
