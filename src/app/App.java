@@ -15,7 +15,10 @@ public class App {
      */
     public static void main(String[] args) {
        
-       
+       /* Passando paramentros ao objectos por intermedio 
+		 * Construtor criado dentro da classe 
+		acessorias criados  devido ao encapsulamento*/
+		Animal animal= new Animal("Gato","pelido",2);
     }
     
 }
