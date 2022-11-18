@@ -26,6 +26,15 @@ public class App {
 		System.out.println(animal.getEspecie());
 		System.out.println(animal.getIdade());
 		System.out.println();
+                
+                //utilizacao dos metodos da classe
+		if(animal.ehAdulto()){
+			System.out.println("Adulto");
+		}else {
+			System.out.println("Crianca");
+		}
+		
+		System.out.println(animal.emitirBarulho());
     }
     
 }
